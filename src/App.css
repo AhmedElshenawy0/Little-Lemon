@@ -1,0 +1,292 @@
+* {
+  font-family: "Markazi Text", "Karla", serif;
+}
+
+label,
+input,
+select,
+textarea,
+p {
+  font-family: "Karla";
+}
+
+body {
+  margin: 0; 
+  padding: 0;
+}
+
+menu {
+  list-style: none;
+  display: grid;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+
+
+a:visited,
+Link:visited,
+a:link,
+Link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.action-button {
+  background-color: #f4ce14;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.2rem;
+  font-family: "Karla";
+  font-size: 2rem;
+}
+
+.action-button:hover {
+  background-color: #495e57;
+  color: #eeeeee;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #edefee;
+  transition: 0.2s;
+}
+
+.menu{
+  padding: 4% 2%;
+}
+
+.menu img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* CALL TO ACTION */
+.call-to-action {
+  background-color: #495e57;
+  color: white;
+  padding:5rem 5rem;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero-text > h1 {
+  font-size: 3rem;
+  margin-top: 0rem;
+}
+
+.hero-text > h2 {
+  font-size: 2.5rem;
+}
+
+.hero-image {
+  max-height: 17rem;
+}
+
+.hero-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ABOUT */
+.about-us {
+  background-color: #f4ce14;
+  padding: 5% 5%;
+  
+}
+
+
+.double-image {
+  max-height: 18rem;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+}
+
+.double-image > img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+}
+
+.about-2 {
+  position: absolute;
+  top: -5.5rem;
+  left: 10rem;
+  border-radius: 15px;
+
+}
+
+/* FOOTER STYLING */
+footer {
+  background-color: #495e57;
+  color: #ffffff;
+  
+}
+
+footer .nav{
+  color: white;
+}
+footer .nav a{
+  color: white;
+}
+
+
+/* RESERVE A TABLE */
+.reserve-table {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header-reserve {
+  width: 100vw; /* width of container */
+  height: 20rem; /* height of container */
+  object-fit: cover;
+}
+
+.reserve-header-text {
+  background-color: #495e57;
+  padding: 0 3rem 0 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  border-radius: 0.5rem;
+}
+
+.reservation-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 2%;
+ text-align: center;
+}
+
+
+.confirmation-header {
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 70vh;
+}
+
+.confirmation-image {
+  height: 70vh; /* height of container */
+  width: 100%;
+  object-fit: cover;
+}
+
+.redirect-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12vw;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.redirect-button {
+  background-color: #464646;
+  color: white !important;
+  padding: 2vh 2rem 2vh 2rem;
+  border-radius: 0.5rem;
+  min-width: 12vw;
+  font-family: "Karla";
+  font-size: 18px;
+}
+
+.redirect-button:hover {
+  background-color: #f4ce14;
+  color: #464646 !important;
+  transition: 0.2s;
+}
+
+
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.specials{
+    padding: 2% 5%;
+}
+.newspecials-cards{
+    padding: 5% 0;
+}
+
+.newspecials-cards .card {
+  width: 18rem;
+}
+.newspecials-cards img {
+  height: 250px;
+  width: 100%;
+  object-fit: fill;
+}
+.newspecials-cards .order-btn{
+  background-color: #f4ce14;
+}
+
+.testimonials{
+    padding: 2% 5%;
+}
+
+.testimonials-cards{
+    padding: 4% 0%;
+}
+
+.testimonials-cards .card{
+    width: 18rem;
+    max-width: 540px;
+}
+
+.testimonial-card .card img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+  }
+
+  .navbar .nav-item:hover {
+    background-color: #f4ce14;
+    border-radius: 10px;
+  }
+
+  .navbar menu{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .navbar menu .navbar-nav{
+    position: relative;
+    left: 30%;
+    right: 30%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    column-gap: 20%;
+  }
+
+  .navbar menu .navbar-nav .nav-link{
+    font-size: 1.5rem;
+  }
