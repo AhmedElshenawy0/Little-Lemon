@@ -16,10 +16,6 @@ export default function About() {
               continue to oversee the Little Lemon restaurant, nearly thirty years later.</p>
           </section>
 
-          <section className="col-lg-6 double-image">
-              <img className="about-1" src={food1} alt="Little Lemon restaurant cuisine 1"></img>
-              <img className="about-2" src={food2} alt="Little Lemon restaurant cuisine 2"></img>
-          </section>
           </div>
 
   </section>

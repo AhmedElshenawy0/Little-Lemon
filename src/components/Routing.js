@@ -6,7 +6,6 @@ import Menu from "./Menu";
 import BookingPage from "./BookingPage";
 import Order from "./Order";
 import Confirmation from "./Confirmation";
-import Login from "./Login";
 
 export default function Routing() {
     return (
@@ -18,7 +17,6 @@ export default function Routing() {
             <Route path="/reservations" element={<BookingPage />} />
 
             <Route path="/order" element={<Order />} />
-            <Route path="/login" element={<Login />} />
 
             <Route path="/confirmation" element={<Confirmation />} />
         </Routes>

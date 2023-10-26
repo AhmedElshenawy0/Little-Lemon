@@ -4,14 +4,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className='container-fluid d-flex justify-content-center py-5'>
+    <footer className='container-fluid d-flex justify-content-center py-5 px-5'>
       <section className=' row gap-5'>
-
-        <nav className="nav flex-column col-lg-auto">
-          <Link className="nav-link " href="/"><img src={require("../assets/footer-logo.png")} alt="Little Lemon logo" /></Link>
-
-        </nav>
-
         <nav className="nav flex-column col-lg-auto">
           <h1 className="footer-header">Navigation</h1>
           <Link className="nav-link " href="/">Home</Link>
